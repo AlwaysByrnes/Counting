@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: radial-gradient(rgba(66, 64, 64, 0.74), rgb(112, 112, 107), rgb(131, 136, 138));
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    justify-content: center;
+    display: block;
+}
+
+#numbers{
+   
+    background-color: yellowgreen;
+    
+}
+
+#countBtn{
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 190px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+#clearBtn{
+    background-color: rgb(226, 43, 113);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 190px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#saveBtn{
+    background-color: rgb(226, 43, 113);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 190px;
+    border-radius: 20px;
+    cursor: pointer;
+}
